@@ -21,7 +21,7 @@ const items = [
 
 const options = [
   {
-    label: 'The color red',
+    label: 'The color Red',
     value: 'red'
   },
   {
@@ -43,11 +43,12 @@ const App = () => {
       {/* <Accordion items={items}/> */}
       {/* <Search/> */}
       {/* <Dropdown
-          onSelectedChange={setSelected}
-          selected={selected}
-          options={options}
-      />  */}
-      <Translate/>
+        label={'Choose a color'}
+        onSelectedChange={setSelected}
+        selected={selected}
+        options={options}
+      /> */}
+      <Translate />
     </div>
   )
 };

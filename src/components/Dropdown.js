@@ -47,6 +47,7 @@ const Dropdown = ({ label, options, selected, onSelectedChange }) => {
           </div>
         </div>
       </div>
+      <h2 style={{ color: `${selected.value}` }}>{selected.value}</h2>
     </div>
   );
 };
